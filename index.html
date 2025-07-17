@@ -9,19 +9,19 @@
 <body>
 
     <header class="bg-[#FFF4E6] w-full h-[1100px]">
-    <nab class=" w-[90%] mx-auto flex justify-between py-4">
+    <nab class=" w-[90%] mx-auto flex justify-between py-4 flex-col sm:flex-col md:flex-row lg:flex-row">
         <p class="text-4xl font-bold">G3 Architects</p>
-        <ul class="flex gap-8 items-center">
+        <ul class="flex gap-4 flex-col sm:flex-col md:flex-row lg:flex-row md:items-center lg:items-center md:gap-8 lg:gap-8">
         <li class="text-xl font-bold"><a href="#">Home</a></li>
         <li class="text-xl font-bold"><a href="#">About</a></li>
         <li class="text-xl font-bold"><a href="#">Contact Us</a></li>
         <li class="text-xl font-bold"><a href="#">Login</a></li>
         </ul>
     </nab>
-    <div class="grid grid-cols-1 justify-items-center content-center w-[90%] container mx-auto h-[450px]">
-        <h2 class="text-6xl text-center font-bold">Brand New Group of<br> Architects</h2>
-        <p class="text-2xl text-center py-6">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
-        <button class="bg-[#FF900E] text-center font-bold text-xl w-[166px] py-4 rounded-xl text-[#FFFFFF]">Explore More</button>
+    <div class="grid grid-cols-1 md:justify-items-center lg:justify-items-center md:content-center lg:content-center w-[90%] md:mx-auto lg:mx-auto h-[500px] sm:h-[500px]md:h-[450px] lg:h-[450px] justify-items-start sm:justify-items-start">
+        <h2 class="text-6xl md:text-center lg:text-center font-bold ml-5 sm:ml-5">Brand New Group of<br> Architects</h2>
+        <p class="text-2xl md:text-center lg:text-center ml-5 sm:ml-5 py-6 ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
+        <button class="bg-[#FF900E] text-center font-bold text-xl w-[166px] rounded-xl text-[#FFFFFF] mb-5 ml-5 md:mb-0 md:ml-5 lg:mb-5 lg:ml-5 md:py-4 lg:py-4">Explore More</button>
         
     </div>
     <div class="w-[90%] mx-auto">
@@ -31,16 +31,16 @@
 <!-- This is 2nd Section in My Website -->
 
 <section class="mt-8">
-    <main class="w-[90%] mx-auto flex justify-between gap-4 h-[500px] items-center">
+    <main class="w-[90%] mx-auto flex justify-between gap-4 h-[2100px] sm:h-[2100px] md:h-[550px] lg:h-[550px] items-center flex-col sm:flex-col md:flex-row lg:flex-row">
         
-        <div class="grid grid-cols-2 gap-4 flex-1">
+        <div class="grid grid-cols-1 gap-4 flex-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 ">
             <img src="./images/team1.png" width="400px" height="400px">
             <img src="./images/team2.png" width="400px" height="400px">
             <img src="./images/team3.png" width="400px" height="400px">
             <img src="./images/team4.png" width="400px" height="400px">
         </div>
 
-        <div class="flex-1 ml-32">
+        <div class="flex-1 flex justify-center sm:justify-center md:justify-start w-[90%] lg:justify-start flex-col sm:flex-col md:grid md:grid-cols-1 lg:grid-cols-1 md:ml-32 lg:ml-32 mt-6 sm:mt-6 md:mt-0 lg:mt-0">
             <p class="text-[#758284] font-bold text-4xl w-[300px]">Quick list <span class="text-[#0F1214]">of Our</span> <span class="text-[#FF900E]">Features</span></p>
             <p class="mt-16 text-xl">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
             <button class=" mt-6 rounded-xl bg-[#FF900E] w-[200px] h-[64px] text-[#FFFFFF] text-2xl font-bold p-4">Explore More</button>
@@ -50,7 +50,7 @@
 
 <!-- This is 3rd Section in My Website -->
 <section class="mt-16">
-<main class="flex justify-between w-[90%] mx-auto gap-6">
+<main class="flex justify-between w-[90%] mx-auto gap-6 flex-col sm:flex-col md:grid md:grid-cols-2 lg:grid-cols-2">
 
 <div class="flex-1 mt-8">
 <h4 class="text-4xl font-bold w-[300px] ">Features you will love & enjoy</h4>
@@ -82,9 +82,9 @@
 
 <!-- This is 3rd image Section in My Website -->
 
-<div class="flex-1 justify-end">
-<img class="h-[500px] w-[500px] ml-14" src="./images/architect.png">
-<button class="-translate-y-18 mr-32 bg-[#FF900E] w-[342px] h-[200px] rounded-xl text-[#FFFFFF] text-6xl font-bold ">10+Years <br> <span class="text-[#FFFFFF] text-4xl">Experience</span></button>
+<div class="flex-1 justify-end flex flex-col sm:flex-col">
+<img class="h-[500px] w-[500px] md:ml-14 lg-ml-14" src="./images/architect.png">
+<button class="md:-translate-y-18 mr-32 lg:-translate-y-18 mr-32 mt-8 sm:mt-8 bg-[#FF900E] w-[342px] h-[200px] rounded-xl text-[#FFFFFF] text-6xl font-bold ">10+Years <br> <span class="text-[#FFFFFF] text-4xl">Experience</span></button>
 </div>
 
 </main>
@@ -93,34 +93,34 @@
 
     <!-- This is 4th Section in My Website -->
      <section class=" mt-24">
-        <div class="w-[90%] mx-auto ">
+        <div class="w-[90%] mx-auto text-center sm:text-center md:text-start lg:text-start">
             <p class="text-4xl font-bold">Some Facts</p>
             <p class="mt-6">There are many variations of passages of Lorem Ipsum available, but <br> the majority have suffered alteration.</p>
         </div>
     <!-- This is box  Section in My Website -->
-        <div class="flex w-[90%] justify-between mx-auto gap-8 mt-8 py-6">
+        <div class="flex w-[90%] justify-between mx-auto gap-8 mt-8 py-6 flex-col sm:grid-cols-2 sm:grid md:grid-cols-3 lg:grid-cols-4">
         
-            <div class="border-[#FF900E] border-1 p-6 rounded-xl w-[241px] h-[241px]">
+            <div class="border-[#FF900E] border-1 p-6 rounded-xl w-[241px] h-[241px] mx-auto">
                 <img class="mx-auto" src="./images/icons/ribon.png">
                 <p class="text-4xl font-bold text-center py-4">54</p>
                 <p class="text-2xl font-bold text-center">Awards Winnings</p>
             </div>
         
         
-            <div class="border-[#FF900E] border-1 p-6 rounded-xl w-[241px] h-[241px]">
+            <div class="border-[#FF900E] border-1 p-6 rounded-xl w-[241px] h-[241px] mx-auto">
                 <img class="mx-auto" src="./images/icons/projects.png">
                 <p class="text-4xl font-bold text-center py-4">1458</p>
                 <p class="text-2xl font-bold text-center">Project Finished</p>
             </div>
         
-            <div class="border-[#FF900E] border-1 p-6 rounded-xl w-[241px] h-[241px]">
+            <div class="border-[#FF900E] border-1 p-6 rounded-xl w-[241px] h-[241px] mx-auto">
                 <img class="mx-auto" src="./images/icons/customers.png">
                 <p class="text-4xl font-bold text-center py-4">590</p>
                 <p class="text-2xl font-bold text-center">Clients Worked</p>
             </div>
         
         
-            <div class="border-[#FF900E] border-1 p-6 rounded-xl w-[241px] h-[241px]">
+            <div class="border-[#FF900E] border-1 p-6 rounded-xl w-[241px] h-[241px] mx-auto">
                 <img class="mx-auto" src="./images/icons/email.png">
                 <p class="text-4xl font-bold text-center py-4">22578</p>
                 <p class="text-2xl font-bold text-center">Email Send</p>
@@ -136,16 +136,16 @@
             <h4 class="text-4xl font-bold text-center">Our Sponsors</h4>
             <p class="text-center text-xl py-4">There are many variations of passages of Lorem Ipsum available, but <br> the majority have suffered alteration.</p>
         </div>
-        <div class="flex gap-4 justify-between mt-6 py-2">
-            <img src="./images/sponsors/amazon.png">
-            <img src="./images/sponsors/figma.png">
-            <img src="./images/sponsors/google.png">
-            <img src="./images/sponsors/spotify.png">
-            <img src="./images/sponsors/telerama.png">
+        <div class="flex gap-4 justify-between mt-6 py-2 flex-col sm:flex-col md:grid md:grid-cols-2 lg:grid-cols-5">
+            <img class="sm:w-[200px] w-[150px] mx-auto sm:mx-auto"  src="./images/sponsors/amazon.png">
+            <img class="sm:w-[200px] w-[150px] mx-auto sm:mx-auto" src="./images/sponsors/figma.png">
+            <img class="sm:w-[200px] w-[150px] mx-auto sm:mx-auto" src="./images/sponsors/google.png">
+            <img class="sm:w-[200px] w-[150px] mx-auto sm:mx-auto" src="./images/sponsors/spotify.png">
+            <img class="sm:w-[200px] w-[150px] mx-auto sm:mx-auto" src="./images/sponsors/telerama.png">
         </div>
      </footer>
 
-     <div class="bg-[#FFF4E7]">
+     <div class="bg-[#FFF4E7] ">
         <p class="w-[90%] text-center mx-auto text-xl p-4">All rights reserved copyright@2023 startup landing page design</p>
      </div>
 
